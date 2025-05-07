@@ -1,7 +1,14 @@
 el principio d mi project xd
-# Que_perdio
-Curso githubt scesi 1_2025. Here are the winners
+# curso git/github scesi 1-2025
+
 # cursopython with Vetdy03
+echo "# cursoGit1-2025" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vetdy03/cursoGit1-2025.git
+git push -u origin main
 # Comandos basicos del git
 - Agregar al git todo muchas veces se debe ubicar en el directotio principal
 ```makdown
@@ -19,15 +26,18 @@ git push -u origin main
 ```makdown
 git pull -u origin main
 ```
-- Guardar tus cambios actuales (por si acaso)
+- Guardar tus cambios actuales (por si acaso) en local
 ```makdown
 git stash
 ```
-- Aplicar los cambios guardados
+- Aplicar los cambios guardados en local al local
 ```makdown
 git stash pop
 ```
-
+- Restaurar un commit en git
+```makdown
+git restore --staged Nombre.extension
+```
 # comandos para mergear desde consola
 Paso 1 Clone el repositorio o actualice su repositorio local con los `últimos cambios.`
 
@@ -60,10 +70,6 @@ git pull origin main --rebase
 git push -f origin main
 ```
 - 
-- 
-```makdown
-
-```
 - 
 ```makdown
 
