@@ -25,6 +25,22 @@ git switch nombre_de_rama
 ```makdown
 git push --set-upstream origin rama_A_subirse
 ```
+- Eliminar una rama
+```makdown
+git branch -d nombre_rama
+```
+- listar todas las ramas 
+```makdown
+git branch -a
+```
+- listar las ramas locales
+```makdown
+git branch -l
+```
+- listar las ramas remotas
+```makdown
+git branch -r
+```
 # Comandos basicos del git
 - Agregar al git todo muchas veces se debe ubicar en el directotio principal
 ```makdown
