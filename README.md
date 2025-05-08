@@ -21,6 +21,10 @@ git branch nueva rama
 ```makdown
 git switch nombre_de_rama
 ```
+- Subir una rama
+```makdown
+git push --set-upstream origin rama_A_subirse
+```
 # Comandos basicos del git
 - Agregar al git todo muchas veces se debe ubicar en el directotio principal
 ```makdown
