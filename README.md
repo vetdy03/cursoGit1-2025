@@ -1,14 +1,18 @@
 el principio d mi project xd
-# curso git/github scesi 1-2025
+# curso git/github apuntes de la clase 2
 
-# cursopython with Vetdy03
-echo "# cursoGit1-2025" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/vetdy03/cursoGit1-2025.git
-git push -u origin main
+- Visualizar todos los commits
+```makdown
+git log
+```
+- Visualizar todos los commits pero en una sola linea
+```makdown
+git log --oneline
+```
+- renombrar commit
+```makdown
+git commit --amend -m "nuevo comentario"
+```
 # Comandos basicos del git
 - Agregar al git todo muchas veces se debe ubicar en el directotio principal
 ```makdown
@@ -75,3 +79,16 @@ git push -f origin main
 
 ```
 - 
+…or create a new repository on the command line
+echo "# cursoGit1-2025" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vetdy03/cursoGit1-2025.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/vetdy03/cursoGit1-2025.git
+git branch -M main
+git push -u origin main
