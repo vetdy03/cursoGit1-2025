@@ -25,9 +25,13 @@ git switch nombre_de_rama
 ```makdown
 git push --set-upstream origin rama_A_subirse
 ```
-- Eliminar una rama
+- Eliminar una rama local
 ```makdown
 git branch -d nombre_rama
+```
+- Eliminar una rama en el remoto
+```makdown
+git push origin --delete rama_javascript
 ```
 - listar todas las ramas 
 ```makdown
