@@ -13,6 +13,14 @@ git log --oneline
 ```makdown
 git commit --amend -m "nuevo comentario"
 ```
+- crear ramas
+```makdown
+git branch nueva rama
+```
+- cambiar rama
+```makdown
+git switch nombre_de_rama
+```
 # Comandos basicos del git
 - Agregar al git todo muchas veces se debe ubicar en el directotio principal
 ```makdown
