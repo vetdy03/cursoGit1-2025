@@ -66,6 +66,10 @@ git pull -u origin main
 ```makdown
 git stash
 ```
+- 
+```makdown
+git stash -u
+```
 - Aplicar los cambios guardados en local al local
 ```makdown
 git stash pop
